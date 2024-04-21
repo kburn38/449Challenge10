@@ -33,19 +33,10 @@ function App() {
 
   };
 
-  /*const updateQuote = (data, otherData) => {
-    console.log(data + otherData);
-    if (dataResults != null && otherDataResults != null) {
-        return data.map((dataElement) => (
-            <h1>{dataElement.quote} otherData</h1>
-        ));
-    }
-  };*/
-
   return (
     <div className="App">
       <header className="App-header">
-        <h1 id="updatingString"></h1>
+        <h1 id="updatingString">Press the button for a combined quote</h1>
         <button onClick={getAndSetData}>Click Here</button>
       </header>
     </div>
